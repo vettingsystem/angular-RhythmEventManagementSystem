@@ -6,9 +6,10 @@ import { CountriesService } from './countries.service';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 import { CountriesComponent } from './countries.component';
+import { CustomerComponent } from './customer/customer.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule ],
-  declarations: [ AppComponent, HelloComponent,  CountriesComponent ],
+  declarations: [ AppComponent, HelloComponent,  CountriesComponent, CustomerComponent ],
    providers: [CountriesService],
   bootstrap:    [ AppComponent ]
 })
